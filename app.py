@@ -4,6 +4,7 @@ from folium import plugins
 from pyproj import Transformer
 from streamlit_folium import st_folium
 
+st.set_page_config(page_title="Bounding Box Area Calculator")  # Unique browser tab title
 # Title
 st.title("Bounding Box Area Calculator")
 
